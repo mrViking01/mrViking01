@@ -18,8 +18,8 @@ body {
   margin-left: 7.5%;
 }
 
-.header .owner-name h1,
-.header .owner-name h3 {
+.header .myName h1,
+.header .myName h3 {
   margin: 0px;
   color: white;
 }
@@ -51,7 +51,7 @@ body {
 .content .details {
   overflow: auto;
   width: 1080px;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   color: white;
