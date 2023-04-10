@@ -5,95 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienmar Plata</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="owner-name">
-        <h1>Bienmar P.</h1>
-        <h3>Programmer</h3>
+    <nav class="navbar bg-dark mb-5">
+      <div class="container-fluid py-2">
+        <a class="navbar-brand w-25" href="#">
+          <p class="lh-1 fs-1 fw-bold m-0 text-white" style="border-bottom: 3px solid #ff9001">Bienmar P.</p>
+          <p class="lh-1 fw-bolder m-0 mt-2 text-orange">Programmer</p>
+        </a>
+        <div class="nav d-flex fs-5 p-2">
+          <a href="#about" class="text-decoration-none nav-item nav-link text-white icon-link icon-link-hover">About</a>
+          <a href="#works" class="text-decoration-none nav-item nav-link text-white icon-link icon-link-hover">Works</a>
+          <a href="#contact" class="text-decoration-none nav-item nav-link text-white icon-link icon-link-hover"
+            >Contact</a
+          >
+        </div>
       </div>
-
-      <div class="nav">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </header>
-    <div class="content">
-      <div class="details" id="about">
-        <div class="details-left text-section-highlighted">
-          <h1>Hi</h1>
-
-          <h1 class="text-head">I am Bienmar Plata</h1>
-          <p class="text-body">
-            &emsp;I am a programmer with more than 3 years of experience. Currently studying BSIT and seeking more
-            challenges.
-            <br />
-            <br />
-            &emsp;I can work in a corporate environment where I can contribute my interpersonal skills and be able to
-            work effectively and discover ways itself improve through hard work and initiative.
+    </nav>
+    <div class="d-flex justify-content-center flex-column">
+      <div class="my-5 w-50 p-5 position-relative top-50 start-50 translate-middle-x" id="about">
+        <div class="float-start w-50 p-3 border-5 border-end border-dark">
+          <h1 class="text-orange">Hi! I am Bienmar</h1>
+          <p class="fs-5">
+            &emsp;&emsp;&emsp;I am a programmer with more than 3 years of experience. Currently studying BSIT and
+            seeking more challenges.
+          </p>
+          <p>
+            &emsp;&emsp;&emsp;I can work in a corporate environment where I can contribute my interpersonal skills and
+            be able to work effectively and discover ways itself improve through hard work and initiative.
           </p>
         </div>
-        <div class="details-right text-section-highlighted-round">
-          <img src="pictures/icon.png" alt="" />
+        <div class="w-50 px-5 position-relative top-0 start-50 translate-middle-y">
+          <div class="position-relative top-50 start-50 translate-middle-x">
+            <img src="pictures/icon.png" />
+          </div>
         </div>
       </div>
-
       <!-- Work content-->
 
-      <div class="details" id="work">
-        <div class="details-left">
-          <a href="https://play.google.com/store/apps/details?id=com.battlebee.block">
-            <div class="item">
-              <img class="icon-size" src="pictures/block_icon.png" alt="" />
-              <h1 class="text-head">Relax Block</h1>
-              <p class="text-body">Relieve your stress and anxiety using rolling cubes.</p>
-            </div>
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.battlebee.polarS">
-            <div class="item">
-              <img class="icon-size" src="pictures/polar_icon.png" alt="" />
-              <h1 class="text-head">Polar Slide</h1>
-              <p class="text-body">Swipe to the opposite direction to play</p>
-            </div>
-          </a>
-        </div>
-
-        <div class="details-right text-section-highlighted details-right-custom">
-          <h1 class="text-head">My Work</h1>
-          <p class="text-body">The following is my recently finished work / project.</p>
-        </div>
-      </div>
-
-      <!-- Contact content-->
-
-      <div class="details" id="contact">
-        <div class="details-left text-section-highlighted">
-          <h1 class="text-head">Contact Me</h1>
-          <p class="text-body">Contact and work with me through this contact informations.</p>
-        </div>
-
-        <div class="details-right">
-          <div class="item-custom">
-            <a href="https://www.facebook.com/profile.php?id=100009155701507">
-              <img class="icon-size-small link-custom" src="pictures/facebook.png" alt="" />
-              <p class="link-custom"><strong> Bienmar Plata</strong></p>
+      <div class="my-5 w-75 p-5 position-relative top-50 start-50 translate-middle-x" id="works">
+        <div class="float-start d-flex w-50 border-5 border-end border-dark">
+          <div class="d-flex flex-column py-5 px-3 mx-2 link">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.battlebee.block"
+              class="text-decoration-none text-dark link-underline-opacity-75-hover"
+            >
+              <img
+                src="pictures/block_icon.png"
+                class="icon-size position-relative top-0 start-50 translate-middle-x"
+              />
+              <h1 class="text-center">Relax Block</h1>
+              <p class="text-center text-wrap text-break overflow-auto">Relieve your stress and anxiety using cubes.</p>
             </a>
           </div>
-          <div class="item-custom">
-            <img class="icon-size-small link-custom" src="pictures/viber.png" alt="" />
-            <p class="link-custom"><strong>+639166599690</strong></p>
+
+          <div class="d-flex flex-column py-5 px-3 mx-2 link">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.battlebee.polarS"
+              class="text-decoration-none text-dark"
+            >
+              <img
+                src="pictures/polar_icon.png"
+                class="icon-size position-relative top-0 start-50 translate-middle-x"
+              />
+              <h1 class="text-center">Polar Slide</h1>
+              <p class="text-center text-wrap text-break overflow-auto">Swipe to the opposite direction to play</p>
+            </a>
           </div>
-          <div class="item-custom">
-            <img class="icon-size-small link-custom" src="pictures/gmail.png" alt="" />
-            <p class="link-custom"><strong>bv800ad@gmail.com</strong></p>
+        </div>
+        <div class="w-50 px-5 position-relative top-0 start-50 translate-middle-y">
+          <div class="position-relative top-50 start-50 translate-middle-x">
+            <h1 class="text-orange">My Works</h1>
+            <p>The following is my recently finished work / project.</p>
+          </div>
+          <div class="d-inline">
+            <a
+              href="https://github.com/mrViking01"
+              class="text-decoration-none text-orange fs-5 icon-link icon-link-hover"
+            >
+              Click here to see more of my projects
+              <i class="bi bi-arrow-right"></i>
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <footer class="footer">
+    <!-- Contact content-->
+
+    <div class="my-5 w-50 p-5 position-relative top-50 start-50 translate-middle-x" id="contact">
+      <div class="float-start w-50 border-5 border-end border-dark">
+        <h1 class="text-orange">Contact Me</h1>
+        <p>Contact and work with me through this contact informations.</p>
+        <!-- <div class="mt-3">
+            <a href="https://www.facebook.com/profile.php?id=100009155701507" class="text-decoration-none text-dark">
+              <i class="bi bi-facebook fs-1 text-orange"></i>
+              <p class="d-inline fs-3 ms-5"><strong>Bienmar Plata</strong></p>
+            </a>
+          </div>
+          <div class="mt-3">
+            <i class="bi bi-telephone-fill fs-1 text-orange"></i>
+            <p class="d-inline fs-3 ms-5"><strong>+639166599690</strong></p>
+          </div> -->
+      </div>
+      <div class="w-50 px-5 position-relative top-0 start-50 translate-middle-y">
+        <div class="mt-3">
+          <i class="bi bi-envelope-fill fs-1 text-orange"></i>
+          <p class="d-inline fs-3 ms-2"><strong>bv800ad@gmail.com</strong></p>
+        </div>
+        <div class="mt-3">
+          <a href="https://www.facebook.com/profile.php?id=100009155701507" class="text-decoration-none text-dark">
+            <i class="bi bi-facebook fs-1 text-orange"></i>
+            <p class="d-inline fs-3 ms-5"><strong>Bienmar Plata</strong></p>
+          </a>
+        </div>
+        <div class="mt-3">
+          <i class="bi bi-telephone-fill fs-1 text-orange"></i>
+          <p class="d-inline fs-3 ms-5"><strong>+639166599690</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="d-flex justify-content-center bg-dark text-white py-4">
       <p>All Rights Received</p>
     </footer>
   </body>
