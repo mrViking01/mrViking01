@@ -4,6 +4,21 @@ body {
   font-family: Verdana, sans-serif;
   margin: 0;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 .bg-orange {
   background-color: #ff9001;
@@ -28,5 +43,9 @@ body {
 }
 .link:hover {
   background-color: #ff9001;
-  border-radius: 15px;
+  border-radius: 5px;
+}
+
+.photo-collection {
+  height: 300px;
 }
